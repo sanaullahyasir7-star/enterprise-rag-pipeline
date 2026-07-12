@@ -38,6 +38,3 @@ Unlike standard RAG implementations that rely on managed vector databases (like 
    ```bash
    git clone https://github.com/[Your-Username]/enterprise-rag-pipeline.git
    cd enterprise-rag-pipeline
-      docker-compose up -d
-      pip install -r requirements.txt
-      uvicorn app.main:app --reload
